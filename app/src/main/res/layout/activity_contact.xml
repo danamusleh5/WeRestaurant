@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:id="@+id/typeImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/place"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/typeName"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:text="Call Us: 02-2961209"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/click_me2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CLICKME"/>
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Or You Can Reserve Directly"/>
+
+    <Button
+        android:id="@+id/click_me1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CLICKME"/>
+
+
+</LinearLayout>
